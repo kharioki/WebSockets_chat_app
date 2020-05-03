@@ -17,8 +17,14 @@ var io = socket(server);
 io.on('connection', function(socket) {
   console.log('made socket connection', socket.id);
 
+  // handle chat event
   socket.on('chat', function(data) {
     // emit data on all sockets
     io.sockets.emit('chat', data);
+  });
+
+  // listen for typing event
+  socket.on('typing', function(data) {
+    socket.broadcast.emit('typing', data);
   });
 });
