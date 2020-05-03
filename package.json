@@ -1,0 +1,23 @@
+{
+  "name": "websocket-chat",
+  "version": "1.0.0",
+  "description": "a live chat app with websocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kharioki/WebSockets_chat_app.git"
+  },
+  "keywords": [
+    "socket.io",
+    "websockets"
+  ],
+  "author": "kharioki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kharioki/WebSockets_chat_app/issues"
+  },
+  "homepage": "https://github.com/kharioki/WebSockets_chat_app#readme"
+}
